@@ -26,7 +26,7 @@ export default function Home() {
 
         {/* Content */}
         <div className="relative z-10 container mx-auto px-5 md:px-10 pt-32 md:pt-40">
-          <div className="flex flex-col items-center gap-16">
+          <div className="flex flex-col items-center gap-5">
             {/* Top Content - Text and Buttons */}
             <FadeIn direction="up" duration={0.8}>
               <div className="text-center space-y-5 max-w-4xl">
@@ -53,23 +53,23 @@ export default function Home() {
             <FadeIn delay={0.3} direction="up" duration={0.8}>
               <div className="relative flex justify-center w-full max-w-2xl">
                 {/* Feature Badges */}
-                <div className="absolute top-8 left-0 md:left-12 bg-teal-600 text-white px-4 py-2 rounded-lg text-sm font-medium shadow-lg z-20 animate-float">
+                <div className="absolute top-8 left-0 md:left-[-120px] bg-teal-600 text-white px-4 py-2 rounded-lg text-sm font-medium shadow-lg z-20 animate-float">
                   Secure payments
                 </div>
-                <div className="absolute top-32 right-0 md:right-16 bg-teal-600 text-white px-4 py-2 rounded-lg text-sm font-medium shadow-lg z-20 animate-float-delayed">
+                <div className="absolute top-32 right-0 md:right-42 bg-teal-600 text-white px-4 py-2 rounded-lg text-sm font-medium shadow-lg z-20 animate-float-delayed">
                   Trusted salons
                 </div>
-                <div className="absolute bottom-24 left-0 md:left-20 bg-teal-600 text-white px-4 py-2 rounded-lg text-sm font-medium shadow-lg z-20 animate-float">
+                <div className="absolute bottom-24 left-0 md:left-[-100px] bg-teal-600 text-white px-4 py-2 rounded-lg text-sm font-medium shadow-lg z-20 animate-float">
                   Instant booking
                 </div>
 
                 {/* Phone Mockup */}
                 <div className="relative">
                   <Image
-                    src={"/hero-mockup.png"}
+                    src={"/hero-img.png"}
                     alt="Hero Mockup"
-                    width={300}
-                    height={300}
+                    width={500}
+                    height={500}
                     className="drop-shadow-2xl"
                     priority
                   />
@@ -104,7 +104,7 @@ export default function Home() {
             </FadeIn>
 
             <FadeIn delay={0.2} direction="up" className="bg-[#006979] rounded-md flex items-end justify-center">
-              <Image src={'/section-2.png'} alt="Beautify Mockup" width={200} height={200} />
+              <Image src={'/section-2-img.png'} alt="Beautify Mockup" width={200} height={200} />
             </FadeIn>
 
             <FadeIn delay={0.3} direction="up" className="bg-[#F5F7FB] rounded-md p-5 flex flex-col justify-between gap-16">
@@ -177,7 +177,7 @@ export default function Home() {
               </div>
 
               <div className="flex items-end justify-center">
-                <Image src={"/verified-salons.png"} alt="Verified Salons" width={300} height={300} />
+                <Image src={"/verified-salons-img.png"} alt="Verified Salons" width={300} height={300} />
               </div>
             </FadeIn>
 
@@ -192,7 +192,7 @@ export default function Home() {
               </div>
 
               <div className="flex items-end justify-center">
-                <Image src={"/real-time.png"} alt="Real-Time Availability" width={300} height={300} />
+                <Image src={"/real-time-chat.png"} alt="Real-Time Availability" width={300} height={300} />
               </div>
             </FadeIn>
 
@@ -207,7 +207,7 @@ export default function Home() {
               </div>
 
               <div className="flex items-end justify-center">
-                <Image src={"/pricing.png"} alt="Transparent Pricing" width={300} height={300} />
+                <Image src={"/transparent-pricing.png"} alt="Transparent Pricing" width={300} height={300} />
               </div>
             </FadeIn>
 
