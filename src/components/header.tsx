@@ -44,11 +44,13 @@ export default function Header() {
 
   return (
     <>
-      <header className="fixed top-0 left-0 right-0 z-50 w-full bg-white/20 backdrop-blur-md py-6 px-5 md:px-10">
+      <header className="fixed top-0 left-0 right-0 z-50 w-full bg-white/10 backdrop-blur-md py-6 px-5 md:px-10">
         <div className="container mx-auto flex items-center justify-between">
           {/* Logo */}
           <div className="z-50">
+            <Link href="/">
             <Image src={"/logo.svg"} alt="Beautify" width={100} height={100} />
+            </Link>
           </div>
 
           {/* Desktop Navigation */}
